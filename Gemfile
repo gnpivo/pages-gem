@@ -12,3 +12,5 @@ group :test do
   gem "rubocop-performance"
   gem "webmock"
 end
+
+gem "ffi", "< 1.17.0"
